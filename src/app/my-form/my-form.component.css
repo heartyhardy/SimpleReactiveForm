@@ -1,0 +1,47 @@
+.container
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightgrey;
+    border: 2px solid lightseagreen;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    width: 35vmin;
+}
+
+input[type=text]
+ {
+    display:block;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 10px;;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30vmin;
+}
+
+.btn-submit
+{
+    background-color: lightgreen;
+    border: 2px solid darkgreen;
+    border-radius: 5px;
+    margin: 20px 10px 10px 20px;
+}
+.btn-reset
+{
+    background-color: lightcoral;
+    border: 2px solid darkred;
+    border-radius: 5px;
+    margin: 20px 10px 10px 20px; 
+}
+
+.displayValues
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: lightgrey;
+    border: 2px solid lightseagreen;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    width: 35vmin;
+}

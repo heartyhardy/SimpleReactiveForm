@@ -1,0 +1,36 @@
+<div class="container">
+
+  <label>
+    First Name: 
+    <input type="text" [formControl]="firstName">
+  </label>
+
+  <label>
+    Last Name: 
+    <input type="text" [formControl]="lastName">
+  </label>
+
+  <label>
+    Email: 
+    <input type="text" [formControl]="email">
+  </label>
+
+    <button class="btn-submit" (click)="OnSubmit()">Submit</button>
+    <button class="btn-reset" (click)="OnReset()">Reset</button>
+    
+</div>
+
+<br>
+<br>
+<br>
+<div class="displayValues" *ngIf="isSubmitted">
+  <div class="row">
+    First Name: {{firstName.value}}
+  </div>
+  <div class="row">
+    Last Name: {{lastName.value}}
+  </div>
+  <div class="row">
+    Email: {{email.value}}
+  </div>
+</div>
